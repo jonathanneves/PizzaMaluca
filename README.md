@@ -13,7 +13,7 @@ https://www.youtube.com/watch?v=ibuUytE75xI
 https://www.youtube.com/watch?v=_JIhMWOPFbA
 
 
-#### Elementos do jogo: 
+### Elementos do jogo: 
 **Elemento tipo pizza (para o jogador escolher qual vai montar):**  Montar 5 pizzas com 5 ingredientes cada. 
 
 **Elemento tipo ingrediente:** (a cada rodada o jogador pode conquistar mais um ingrediente para a sua pizza. Verificar no tabuleiro os ingredientes disponíveis.
@@ -22,7 +22,7 @@ https://www.youtube.com/watch?v=_JIhMWOPFbA
 
 **Funcionamento do jogo:** todos os jogadores iniciam em uma posição do tabuleiro com um peão. A cada rodada, os jogadores jogam o dado e seguem adiante n casas no tabuleiro, de acordo com o número indicado pelo dado e recebe o ingrediente, a punição ou o prêmio (retirando a ficha sorte ou azar).
 
-#### Como implementar o jogo utilizando-se de TADs:
+### Como implementar o jogo utilizando-se de TADs:
 Obs.: Todos os elementos devem utilizar-se de alocação dinâmica de memória.
 
 O dado deve ser um número entre 1 e 6 sorteado aleatoriamente, utilizando-se de função randômica. 
