@@ -13,7 +13,7 @@ https://www.youtube.com/watch?v=ibuUytE75xI
 https://www.youtube.com/watch?v=_JIhMWOPFbA
 
 
-###### Elementos do jogo: 
+#### Elementos do jogo: 
 **Elemento tipo pizza (para o jogador escolher qual vai montar):**  Montar 5 pizzas com 5 ingredientes cada. 
 
 **Elemento tipo ingrediente:** (a cada rodada o jogador pode conquistar mais um ingrediente para a sua pizza. Verificar no tabuleiro os ingredientes disponíveis.
@@ -22,19 +22,19 @@ https://www.youtube.com/watch?v=_JIhMWOPFbA
 
 **Funcionamento do jogo:** todos os jogadores iniciam em uma posição do tabuleiro com um peão. A cada rodada, os jogadores jogam o dado e seguem adiante n casas no tabuleiro, de acordo com o número indicado pelo dado e recebe o ingrediente, a punição ou o prêmio (retirando a ficha sorte ou azar).
 
-###### Como implementar o jogo utilizando-se de TADs:
+#### Como implementar o jogo utilizando-se de TADs:
 Obs.: Todos os elementos devem utilizar-se de alocação dinâmica de memória.
 
 O dado deve ser um número entre 1 e 6 sorteado aleatoriamente, utilizando-se de função randômica. 
 Tabuleiro: implementar uma lista circular duplamente encadeada contendo sequencialmente todas as posições do tabuleiro. Todos os jogadores iniciam no início da lista. Obs.: a lista deve ter um ponteiro para cada jogador (para marcar a posição atual do jogador). Abaixo seguem todas as posições do tabuleiro, iniciando do primeiro elemento da primeira fila, seguindo-se no sentido horizontal até o último elemento da fila (1-perde tudo, 2- cebola..., 35- sorte ou azar)
 
-> INÍCIO ->
-PERDE TUDO	CEBOLA	SORTE OU AZAR	CALABREZA	QUEIJO	SORTE OU AZAR	SORTE OU AZAR
-TOMATE	OVOS	AZEITONA	SORTE OU AZAR	SORTE OU AZAR	MILHO	AZEITONA
-SORTE OU AZAR	PREZUNTO	TOMATE	MILHO	SORTE OU AZAR	SORTE OU AZAR	BROCOLIS
-SORTE OU AZAR	OVOS	CEBOLA	SORTE OU AZAR	CALABREZA	SORTE OU AZAR	PREZUNTO
-SORTE OU AZAR	QUEIJO	AZEITONA	SORTE OU AZAR	BROCOLIS	AZEITONA	SORTE OU AZAR
--> FIM
+> [INÍCIO] ->
+[PERDE TUDO] [CEBOLA]	[SORTE OU AZAR]	[CALABREZA]	[QUEIJO]	[SORTE OU AZAR]	[SORTE OU AZAR]
+[TOMATE]	[OVOS]	[AZEITONA]	[SORTE OU AZAR]	[SORTE OU AZAR]	[MILHO]	[AZEITONA]
+[SORTE OU AZAR]	[PREZUNTO]	[TOMATE]	[MILHO]	[SORTE OU AZAR]	[SORTE OU AZAR]	[BROCOLIS]
+[SORTE OU AZAR]	[OVOS]	[CEBOLA]	[SORTE OU AZAR]	[CALABREZA]	[SORTE OU AZAR]	[PREZUNTO]
+[SORTE OU AZAR]	[QUEIJO]  [AZEITONA]	[SORTE OU AZAR]	[BROCOLIS]	[AZEITONA]	[SORTE OU AZAR]
+-> [FIM]
 
 Obs.: o elemento pizzaiolo foi substituído pelo elemento sorte ou azar. 
 
